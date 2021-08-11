@@ -1,4 +1,4 @@
-function SlideTransition(_mode, _target){
+function SlideTransition(_mode, _target) {
 	with(obj_transition) {
 		mode = _mode;
 		target = _target;
