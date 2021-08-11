@@ -5,6 +5,7 @@
     {"id":{"name":"spr_trigger","path":"sprites/spr_trigger/spr_trigger.yy",},"order":11,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":1,},
+    {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},"order":3,},
     {"id":{"name":"spr_mountain","path":"sprites/spr_mountain/spr_mountain.yy",},"order":13,},
     {"id":{"name":"obj_dead","path":"objects/obj_dead/obj_dead.yy",},"order":5,},
     {"id":{"name":"tls_tiles","path":"tilesets/tls_tiles/tls_tiles.yy",},"order":0,},
@@ -49,6 +50,7 @@
     {"roomId":{"name":"RoomMenu","path":"rooms/RoomMenu/RoomMenu.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
