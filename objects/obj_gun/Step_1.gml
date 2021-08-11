@@ -1,7 +1,7 @@
 x = obj_player.x;
 y = obj_player.y + 10;
 
-if(obj_player.controller == 0) {
+if(!obj_player.controller) {
 	image_angle = point_direction(x, y, mouse_x, mouse_y);
 } else {
 	var controllerh = gamepad_axis_value(0, gp_axisrh);

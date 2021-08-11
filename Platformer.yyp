@@ -1,14 +1,17 @@
 {
   "resources": [
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":4,},
+    {"id":{"name":"spr_trigger","path":"sprites/spr_trigger/spr_trigger.yy",},"order":11,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":1,},
     {"id":{"name":"obj_dead","path":"objects/obj_dead/obj_dead.yy",},"order":5,},
     {"id":{"name":"tls_tiles","path":"tilesets/tls_tiles/tls_tiles.yy",},"order":0,},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":6,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":1,},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
     {"id":{"name":"spr_tiles","path":"sprites/spr_tiles/spr_tiles.yy",},"order":10,},
     {"id":{"name":"spr_enemyair","path":"sprites/spr_enemyair/spr_enemyair.yy",},"order":6,},
+    {"id":{"name":"obj_levelend","path":"objects/obj_levelend/obj_levelend.yy",},"order":8,},
     {"id":{"name":"spr_playerair","path":"sprites/spr_playerair/spr_playerair.yy",},"order":3,},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":5,},
     {"id":{"name":"spr_playerrunning","path":"sprites/spr_playerrunning/spr_playerrunning.yy",},"order":2,},
@@ -17,6 +20,8 @@
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},"order":9,},
     {"id":{"name":"shd_white","path":"shaders/shd_white/shd_white.yy",},"order":0,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
+    {"id":{"name":"SlideTransition","path":"scripts/SlideTransition/SlideTransition.yy",},"order":0,},
+    {"id":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},"order":7,},
     {"id":{"name":"spr_enemydead","path":"sprites/spr_enemydead/spr_enemydead.yy",},"order":8,},
     {"id":{"name":"obj_gun","path":"objects/obj_gun/obj_gun.yy",},"order":2,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":3,},
@@ -36,6 +41,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
