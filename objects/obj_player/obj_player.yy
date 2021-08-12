@@ -6,8 +6,8 @@
   "solid": false,
   "visible": true,
   "spriteMaskId": {
-    "name": "spr_player",
-    "path": "sprites/spr_player/spr_player.yy",
+    "name": "spr_player_man",
+    "path": "sprites/spr_player_man/spr_player_man.yy",
   },
   "persistent": false,
   "parentObjectId": null,

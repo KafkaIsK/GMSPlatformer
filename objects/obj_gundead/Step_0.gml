@@ -1,6 +1,6 @@
 if(done == 0) {
 	vsp += grv;
-	image_angle +=50;
+	image_angle += 50;
 
 	//Horizontal collision
 	if(place_meeting(x + hsp, y, obj_wall)) {

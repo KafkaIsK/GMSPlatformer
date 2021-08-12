@@ -4,4 +4,3 @@ grv = 0.3; //gravity
 walksp = 4; //walkspeed
 controller = false;
 hascontrol = true;
-
