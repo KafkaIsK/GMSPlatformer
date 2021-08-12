@@ -1,4 +1,7 @@
 if(hp <= 0) {
+	audio_sound_pitch(snd_death, 1 / (size / 2 ));
+	audio_play_sound(snd_death, 10, false);
+	
 	with(instance_create_layer(x, y, layer, obj_dead)) {
 		direction = other.hitfrom;
 		hsp = lengthdir_x(3, direction);
