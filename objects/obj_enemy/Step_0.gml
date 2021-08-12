@@ -32,4 +32,5 @@ if(!place_meeting(x, y + 1, obj_wall)) {
 		sprite_index = spr_enemyrunning;
 	}
 }
-if(hsp != 0) image_xscale = sign(hsp);
+if(hsp != 0) image_xscale = sign(hsp) * size;
+image_yscale = size;
