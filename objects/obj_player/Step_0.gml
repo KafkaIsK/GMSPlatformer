@@ -26,8 +26,10 @@ if(hascontrol) {
 var move = key_right - key_left;
 hsp = move * walksp;
 vsp += grv;
-if(place_meeting(x, y + 1, obj_wall)) && (key_jump) {
+canjump--;
+if(canjump > 0) && (key_jump) {
 	vsp = -7;
+	canjump = 0;
 }
 
 //Horizontal collision
@@ -54,6 +56,7 @@ if(!place_meeting(x, y + 1, obj_wall)) {
 	image_speed = 0;
 	if(sign(vsp) > 0) image_index = 1; else image_index = 0;
 } else {
+	canjump = 10;
 	if(sprite_index == spr_playerair) {
 		audio_sound_pitch(snd_landing, choose(0.8, 1.0, 1.2));
 		audio_play_sound(snd_landing, 4, false);
