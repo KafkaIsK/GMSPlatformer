@@ -21,5 +21,10 @@ if(hp <= 0) {
 			if (sign(hsp) != 0) image_xscale = sign(hsp);
 		}
 	}
+	if(instance_exists(obj_player)) {
+		global.kills++;
+		global.killsthisroom++;
+		with(obj_game) killtextscale = 2;
+	}
 	instance_destroy();
 }

@@ -42,6 +42,7 @@ if(menu_x > gui_width + 150) && (menu_committed != -1) {
 			} else {
 				var file = file_text_open_read(SAVEFILE);
 				var target = file_text_read_real(file);
+				global.kills = file_text_read_real(file);
 				file_text_close(file);
 				SlideTransition(TRANS_MODE.GOTO, target);
 			}

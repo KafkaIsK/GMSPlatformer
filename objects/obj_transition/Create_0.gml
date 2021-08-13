@@ -8,7 +8,8 @@ enum TRANS_MODE
 	NEXT,
 	GOTO,
 	RESTART,
-	INTRO
+	INTRO,
+	EXIT
 }
 mode = TRANS_MODE.INTRO;
 percent = 1;

@@ -3,7 +3,7 @@
   "glyphOperations": 0,
   "interpreter": 0,
   "pointRounding": 0,
-  "fontName": "dope_sheet_icon_font",
+  "fontName": "events_icon_font",
   "styleName": "Regular",
   "size": 24.0,
   "bold": false,

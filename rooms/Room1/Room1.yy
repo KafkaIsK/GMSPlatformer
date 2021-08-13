@@ -27,6 +27,10 @@
             {"propertyId":{"name":"text","path":"objects/obj_sign/obj_sign.yy",},"objectId":{"name":"obj_sign","path":"objects/obj_sign/obj_sign.yy",},"value":"\"Please don't murder anyone\\n -The Park Ranger\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_sign","path":"objects/obj_sign/obj_sign.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.5,"scaleY":1.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1824.0,"y":680.0,"resourceVersion":"1.0","name":"inst_5F48B269","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_marker","path":"objects/obj_marker/obj_marker.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1824.0,"y":640.0,"resourceVersion":"1.0","name":"inst_69D0B65F","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"text","path":"objects/obj_sign/obj_sign.yy",},"objectId":{"name":"obj_sign","path":"objects/obj_sign/obj_sign.yy",},"value":"\"Don't Touch this Gun!\\n -The Park Ranger\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"obj_sign","path":"objects/obj_sign/obj_sign.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.5,"scaleY":1.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":872.0,"resourceVersion":"1.0","name":"inst_74D08DA8","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_marker","path":"objects/obj_marker/obj_marker.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":832.0,"resourceVersion":"1.0","name":"inst_191915B7","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Entities","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_enemybig","path":"objects/obj_enemybig/obj_enemybig.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1280.0,"y":576.0,"resourceVersion":"1.0","name":"inst_5C93AF25","tags":[],"resourceType":"GMRInstance",},
@@ -490,6 +494,8 @@
     {"name":"inst_5C93AF25","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_38AC0E95","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_1945EE24","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_74D08DA8","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_191915B7","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

@@ -12,4 +12,6 @@ function KillPlayer(){
 		vsp = lengthdir_y(3, other.direction) - 2;
 		if (sign(hsp) != 0) image_xscale = sign(hsp);
 	}
+	
+	global.kills -= global.killsthisroom;
 }

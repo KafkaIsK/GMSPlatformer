@@ -22,6 +22,12 @@ if(mode != TRANS_MODE.OFF) {
 				break;
 			}
 			case TRANS_MODE.RESTART: {
+				//game_restart();
+				mode = TRANS_MODE.INTRO;
+				room_restart();
+				break;
+			}
+			case TRANS_MODE.EXIT: {
 				game_restart();
 				break;
 			}
