@@ -5,3 +5,5 @@ walksp = 4; //walkspeed
 controller = false;
 hascontrol = true;
 canjump = 0;
+
+runningdust = 20;

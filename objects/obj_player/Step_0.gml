@@ -60,12 +60,25 @@ if(!place_meeting(x, y + 1, obj_wall)) {
 	if(sprite_index == spr_playerair) {
 		audio_sound_pitch(snd_landing, choose(0.8, 1.0, 1.2));
 		audio_play_sound(snd_landing, 4, false);
+		repeat(5) {
+			with(instance_create_layer(x, bbox_bottom, "Bullets", obj_dust)) {
+				vsp = 0;
+			}
+		}
 	}
 	image_speed = 1;
 	if(hsp == 0) {
 		sprite_index = spr_player;
 	} else {
 		sprite_index = spr_playerrunning;
+		runningdust--;
+		if(runningdust <= 0) {
+			repeat(2) {
+				instance_create_layer(x, bbox_bottom, "Bullets", obj_dust)
+			}
+			runningdust = 20;
+		}
+		
 	}
 }
 if(hsp != 0) image_xscale = sign(hsp);
