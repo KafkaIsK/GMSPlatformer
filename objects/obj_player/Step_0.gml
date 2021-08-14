@@ -53,6 +53,9 @@ if(place_meeting(x, y + vsp, obj_wall)) {
 y += vsp;
 
 //Animation
+var aimside = sign(mouse_x - x);
+if(aimside != 0) image_xscale = aimside;
+
 if(!place_meeting(x, y + 1, obj_wall)) {
 	sprite_index = spr_playerair;
 	image_speed = 0;
@@ -73,6 +76,8 @@ if(!place_meeting(x, y + 1, obj_wall)) {
 		sprite_index = spr_player;
 	} else {
 		sprite_index = spr_playerrunning;
+		if(aimside != sign(hsp)) sprite_index = spr_playerstrafing;
+		
 		runningdust--;
 		if(runningdust <= 0) {
 			repeat(2) {
@@ -83,4 +88,3 @@ if(!place_meeting(x, y + 1, obj_wall)) {
 		
 	}
 }
-if(hsp != 0) image_xscale = sign(hsp);
