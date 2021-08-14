@@ -24,8 +24,10 @@ if(hascontrol) {
 
 //Calculate movement
 var move = key_right - key_left;
-hsp = move * walksp;
-vsp += grv;
+hsp = (move * walksp) + gunkickx;
+gunkickx = 0;
+vsp += grv + gunkicky;
+gunkicky = 0;
 canjump--;
 if(canjump > 0) && (key_jump) {
 	vsp = -7;

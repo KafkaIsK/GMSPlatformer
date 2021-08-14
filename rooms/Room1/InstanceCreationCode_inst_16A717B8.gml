@@ -1,1 +1,1 @@
-target = Room2;
+target = RoomEnding;
