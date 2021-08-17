@@ -21,7 +21,7 @@ if(global.hasgun) && (global.kills >= 0) {
 		endtext[1] = "You also managed to get past all the bad people without killing any.";
 		endtext[2] = "Really? What you dont't like fun?";
 		endtext[3] = "Not even one? You really played this game that way?";
-		endtext[4] = "Well you escaped the park with the gun, and killed a bunch of people offscreen.";
+		endtext[4] = "Well you escaped the park with the gun, and killed\na bunch of people offscreen.";
 		endtext[5] = "So in the end it didn't really matter. Many died."
 	}
 } else {
